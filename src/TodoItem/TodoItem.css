@@ -1,0 +1,24 @@
+.TodoItem{
+    display: flex;
+    position: relative;
+    right: 80px;
+    width: 600px;
+    padding: 0 5px;
+    margin-left: 33%;
+    margin-top: 25px;
+    list-style: none;
+    border: 1.5px solid black;
+    box-shadow: 5px 3px 5px black;
+    border-radius: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+    .TodoItem{
+        height: 40px;
+        width: 330px;
+        word-wrap: break-word;
+        margin-left: 0;
+        right: 15px;
+    }
+}

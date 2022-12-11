@@ -1,0 +1,15 @@
+.TodoCounter{
+    position: relative;
+    right: 13px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 800px){
+    .TodoCounter{
+        font-size: 22px;
+        right: 0;
+    }
+}

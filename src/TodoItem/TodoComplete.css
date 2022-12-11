@@ -1,0 +1,19 @@
+.TodoComplete{
+    
+    position: relative;
+    left: 240px;
+    margin-top: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .TodoComplete{
+        display: flex;
+        align-items: center;
+        left: 5px;
+        margin-top: 0;
+        margin-right: 5px;
+    }   
+}
+

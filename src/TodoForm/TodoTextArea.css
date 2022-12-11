@@ -1,0 +1,8 @@
+.TodoTextArea{
+    position: relative;
+    bottom: 10px;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+    border-color: grey;
+}

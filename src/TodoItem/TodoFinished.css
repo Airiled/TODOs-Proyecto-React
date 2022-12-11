@@ -1,0 +1,10 @@
+.TodoFinished{
+    position: relative;
+    bottom: 5px;
+    color: green;
+    font-size: 24px;    
+}
+
+@media screen and (max-width:800px){
+    .TodoFinished{bottom: 0;}
+}
